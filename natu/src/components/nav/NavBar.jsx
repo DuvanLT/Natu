@@ -1,10 +1,10 @@
-function NavList(){
-    return (
+const NavBar = () =>{
+    return(
         <>
         <nav>
             /*For Mobile */
             <div className="menuH">
-                <img src="../images/icon/menu.png" alt="" />
+                <img src="../../images/icon/menu.png" alt="" />
             </div>
             <ul>
                 <li>
@@ -26,8 +26,8 @@ function NavList(){
         </nav>    
         </>
        
-    )
+
+    );
 }
 
-
-export default NavList
+export default NavBar
