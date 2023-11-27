@@ -1,4 +1,4 @@
-const NavBar = () =>{
+export const NavBar = () =>{
     return(
         <>
         <nav>
@@ -29,5 +29,3 @@ const NavBar = () =>{
 
     );
 }
-
-export default NavBar

@@ -1,10 +1,11 @@
-
+import {NavBar} from './components/nav/NavBar.jsx'
 import './App.css';
 
 function App() {
   return (
-  
-   <h1>HOLA</h1>
+    <>
+    <NavBar />
+   </>
   );
 }
 
