@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import menu from '../../icon/menu.png'
 export const NavBar = () =>{
-    const [nav,setNav] = useState(false)
+    const [nav,setNav] = useState(true)
     return(
         <>
         <nav>
