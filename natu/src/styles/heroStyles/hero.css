@@ -47,7 +47,7 @@ html{
    }
    @media (min-width: 655px) {
     .hero{
-        max-height: 800px;
+        max-height: 700px;
     }
     .hero_Text{
         font-size: 26px;
