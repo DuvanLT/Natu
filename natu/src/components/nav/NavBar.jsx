@@ -1,34 +1,37 @@
 import { useState } from 'react';
 import menu from '../../icon/menu.png'
+import logo from '../../icon/logo.png'
 export const NavBar = () =>{
     const [nav,setNav] = useState(true)
     return(
         <>
+        <header>
         <nav>
             <div className="logo">
-                <span>Natu</span>
+                <img src={logo} alt="" />
             </div>
             <ul className={` ${nav && "openNav"}`}>
                 <li>
-                    <a href="">Home</a>
+                    <a href="">HOME</a>
                 </li>
                 <li>
-                    <a href="">Places</a>
+                    <a href="">PLACES</a>
                 </li>
                 <li>
-                    <a href="">Price</a>
+                    <a href="">PRICE</a>
                 </li>
                 <li>
-                    <a href="">Team</a>
+                    <a href="">TEAM</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="">CONTACT</a>
                 </li>
             </ul>
             <div className="menuH" onClick={ () => setNav(!nav)}>
                 <img src={menu} />
             </div>
         </nav>    
+        </header>
         </>
        
 
