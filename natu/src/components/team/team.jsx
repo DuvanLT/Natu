@@ -16,7 +16,7 @@ export const Team = () => {
     ]
     return (
         <>
-        <div className="team">
+        <div className="team" id='team'>
             <h2>Our Perfect Team</h2>
             <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
             </div>

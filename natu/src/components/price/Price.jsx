@@ -10,7 +10,7 @@ export const Price = () =>{
     ]
     return(
         <>
-        <section className="price">
+        <section className="price" id='price'>
         {PriceData.map((price , id) => (
         <div className="price_Container" key={id}>
             <div className="price_photo">

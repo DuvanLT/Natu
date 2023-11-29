@@ -7,7 +7,7 @@ import gallery4 from '../../images/Gallery/Gallery-4.jpeg'
 
 export const Gallery1 = () => {
     return(
-        <section className="gallery">
+        <section className="gallery" >
             <img src={gallery1} alt="" className='gallery1'/>
             <img src={gallery2} alt="" className='gallery2' />
         </section>

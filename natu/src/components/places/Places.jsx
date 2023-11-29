@@ -10,7 +10,7 @@ export const Places =() => {
     ]
     return (
         <>
-        <div className="places">
+        <div className="places" id='places'>
             <h2>Best places to hike and trek in the world.</h2>
             <p>If youre an adventurer who loves being out in nature, a hiking and trekking tour should be next on your list. You can expect great wildlife photography opportunities and the chance to travel with a group of like-minded individuals who love the great outdoors.</p>
             </div>
