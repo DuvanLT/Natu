@@ -1,6 +1,10 @@
+import logo from '../../icon/logo.png'
 export const Footer = () => {
     return(
         <footer>
+            <div className="logoFooter">
+            <img src={logo} alt="" />
+            </div>
             <div className="experience">
             <h5>New Experience</h5>
             <ul>
