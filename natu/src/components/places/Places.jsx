@@ -9,11 +9,14 @@ export const Places =() => {
         { img: place3},
     ]
     return (
-        <section className="places">
+        <>
+        <div className="places">
             <h2>Best places to hike and trek in the world.</h2>
             <p>If youre an adventurer who loves being out in nature, a hiking and trekking tour should be next on your list. You can expect great wildlife photography opportunities and the chance to travel with a group of like-minded individuals who love the great outdoors.</p>
+            </div>
+            <div className="necesary">
             <div className="decoration">
-            <div className="placePhotohos__Container">
+            <div className="placePhotos__Container">
                 {PlacesPhotos.map((place,id) => (
                 <div className="photos_places" key={id}>
                 <img src={place.img} alt="" />
@@ -21,7 +24,8 @@ export const Places =() => {
                 </div>
                 ))}
          </div>
-         </div>  
-        </section>
+         </div>
+         </div>
+     </>
     )
 }
