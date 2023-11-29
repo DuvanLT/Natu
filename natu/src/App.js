@@ -23,7 +23,6 @@ function App() {
     <Places />
     <Gallery1 />
     <Price />
-    <Places /> 
     <Team />   
     <Gallery2 />
     <Newletter />
