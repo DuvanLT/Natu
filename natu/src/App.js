@@ -6,6 +6,7 @@ import { Gallery2 } from './components/gallery/Gallery.jsx'
 import {Price} from './components/price/Price.jsx'
 import {Team} from './components/team/team.jsx'
 import { Newletter } from './components/newletter/Newletter.jsx'
+import { Footer } from './components/footer/Footer.jsx'
 import './styles/navStyles/navBar.css'
 import './styles/heroStyles/hero.css'
 import './styles/placesStyles/place.css'
@@ -13,6 +14,7 @@ import './styles/gallery1Style/gallery1.css'
 import './styles/priceStyles/price.css'
 import './styles/teamStyle/team.css'
 import './styles/newletter/newletter.css'
+import './styles/footer/footer.css'
 import './App.css';
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
     <Team />   
     <Gallery2 />
     <Newletter />
+    <Footer />
    </>
   );
 }

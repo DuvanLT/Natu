@@ -1,0 +1,29 @@
+footer{
+    background: #111111;
+    margin: 0;
+    padding: 40px;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul a{
+    color: #999999;
+    text-decoration: none;
+}
+
+footer h5{
+    color: #999999;
+    font-size: 18px;
+    text-decoration: underline;
+    margin: 2px;
+}
+
+@media (min-width: 768px) {
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
