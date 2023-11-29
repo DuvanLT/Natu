@@ -1,0 +1,52 @@
+.newletter{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 20px;
+}
+
+.newletter h4{
+    font-size: 35px;
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+}
+
+.newletter input{
+    padding: 10px 40px 10px 5px;
+    margin: 10px 0px;
+    border: 2px #111111 solid;
+}
+
+.newletter button {
+    padding: 10px 40px;
+    background: #f1c50e;
+    border: none;
+    font-weight: 200;
+}
+
+form{
+    display: grid ;
+    place-content: center;
+}
+
+@media (min-width: 768px) {
+    .newletter_Container{
+        margin: auto;
+    }
+    .newletter{
+        align-items: start;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+    }
+    .newletter button{
+        padding: 12px 20px;
+    }
+
+}

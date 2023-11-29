@@ -17,8 +17,14 @@ export const Gallery1 = () => {
 export const Gallery2 = () => {
     return(
         <section className="gallery">
-            <img src={gallery3} alt="" className='gallery1'/>
-            <img src={gallery4} alt="" className='gallery2' />
+            <img src={gallery4} alt="" className='gallery1'/>
+            <div className="textGallery">
+                <h3>Sony Wolrd Photography Awards</h3>
+                <p>We are delighted to reveal the winners of the 2018 Sony World Photography Awards.</p>
+            </div>
+            <div className="photoWithText">
+            <img src={gallery3} alt="" className='gallery2' />
+            </div>
         </section> 
     )
 }
