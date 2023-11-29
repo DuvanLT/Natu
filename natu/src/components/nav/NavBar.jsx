@@ -3,6 +3,8 @@ import menu from '../../icon/menu.png'
 import logo from '../../icon/logo.png'
 export const NavBar = () =>{
     const [nav,setNav] = useState(true)
+    nav?document.documentElement.style.overflowY = 'auto' : document.documentElement.style.overflowY = 'hidden'
+    nav?document.documentElement.style.overflowX = 'hidden' : document.documentElement.style.overflowX = 'hidden'
     return(
         <>
         <header>
