@@ -27,5 +27,6 @@ export const Places =() => {
          </div>
          </div>
      </>
-    )
+    )    
 }
+
