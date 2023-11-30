@@ -64,7 +64,7 @@
         display: grid;
         place-content: center;
         grid-template-columns: 33% 33% 33%;
-        max-width: 800px;
+        max-width: 850px;
         margin: auto;
 
     }

@@ -35,6 +35,7 @@ form{
 @media (min-width: 768px) {
     .newletter_Container{
         margin: auto;
+        width: 830px;
     }
     .newletter{
         align-items: start;

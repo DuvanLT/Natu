@@ -19,6 +19,7 @@
 @media (min-width: 768px) {
 .textGallery{
     width: 350px;
+    margin-left: 40px;
 }
 .textGallery h3{
     font-size: 35px;
